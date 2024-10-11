@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotating Image Gallery</title>
+    <link rel="stylesheet" href="imagegallery.css" />
+  </head>
+  <body>
+    <div class="image-container">
+      <span style="--i: 1">
+        <img src=web.jpg />
+      </span>
+      <span style="--i: 2">
+        <img
+          src=web.jpg 
+        />
+      </span>
+      <span style="--i: 3">
+        <img
+          src="one.jpg"
+        />
+      </span>
+      <span style="--i: 4">
+        <img
+          src="two.jpg"
+        />
+      </span>
+      <span style="--i: 5">
+        <img
+          src="three.jpg">
+      </span>
+      <span style="--i: 6">
+        <img src="one.jpg" />
+      </span>
+      <span style="--i: 7">
+        <img src=web.jpg />
+      </span>
+      <span style="--i: 8">
+        <img
+          src="mystical-forest-landscape-ey2pdy3abju0vcyr.webp"
+        />
+      </span>
+    </div>
+    <div class="btn-container">
+      <button class="btn" id="prev">Prev</button>
+      <button class="btn" id="next">Next</button>
+    </div>
+    <script src="galleryjs.js"></script>
+  </body>
+</html>
